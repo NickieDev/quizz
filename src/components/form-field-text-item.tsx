@@ -1,9 +1,10 @@
 import { FormControl, FormField, FormItem, FormLabel } from "./ui/form"
 import { Input } from "./ui/input"
-
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 type Props = {
    label: string
    nameField: string
+   // eslint-disable-next-line @typescript-eslint/no-explicit-any
    form: any
    passwordField?: boolean
 }
@@ -31,4 +32,5 @@ export const FormFieldTextItem = ({ label, nameField, form, passwordField }: Pro
          )}
       />
    )
+
 }
