@@ -79,9 +79,7 @@ export const CultureQuestionsForm = () => {
             const score = res.data.userAnswers.score
             const classification = res.data.userAnswers.classification
 
-            const st = { score, classification }
-
-            await saveStorage('score', JSON.stringify(st))
+            await saveStorage('score',  { score, classification})
 
             toast.success("Respostas enviadas com sucesso!")
 
@@ -147,3 +145,4 @@ export const CultureQuestionsForm = () => {
    )
 
 }
+
