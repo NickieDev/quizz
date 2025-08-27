@@ -73,7 +73,7 @@ export const CultureQuestionsForm = () => {
 
       // await api.post('/', { mockData })
       await api.post('/candidates', { userAnswers })
-         .then((res) => {
+         .then(async(res) => {
             setUserAnswers(res.data)
 
             const score = res.data.userAnswers.score
@@ -81,7 +81,7 @@ export const CultureQuestionsForm = () => {
 
             const st = { score, classification }
 
-            saveStorage('score', JSON.stringify(st))
+            await saveStorage('score', JSON.stringify(st))
 
             toast.success("Respostas enviadas com sucesso!")
 
@@ -145,4 +145,5 @@ export const CultureQuestionsForm = () => {
          </div>
       </div>
    )
+
 }
