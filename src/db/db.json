@@ -1,0 +1,106 @@
+{
+  "candidates": [
+    {
+      "id": "66de",
+      "userAnswers": {
+        "user": {
+          "name": "Carlos",
+          "email": "carlos@email.com"
+        },
+        "answers": {
+          "experience": "Média",
+          "deliverables": "Dentro do esperado",
+          "skills": "Adequada",
+          "availability": "Alta",
+          "deadlines": "Entrega no prazo",
+          "pressure": "Bem",
+          "values": "Bastante",
+          "collaboration": "Média",
+          "adaptation": "Difícil",
+          "communication": "Excelente"
+        },
+        "score": 49.6,
+        "classification": "Fit Questionável",
+        "createdAt": "2025-08-27T01:16:01.278Z"
+      }
+    },
+    {
+      "id": "637a",
+      "userAnswers": {
+        "user": {
+          "name": "James",
+          "email": "james@gmail.com"
+        },
+        "answers": {
+          "experience": "Média",
+          "deliverables": "Dentro do esperado",
+          "skills": "Boa",
+          "availability": "Alta",
+          "deadlines": "Entrega no prazo",
+          "pressure": "Razoavelmente",
+          "values": "Bastante",
+          "collaboration": "Alta",
+          "adaptation": "Difícil",
+          "communication": "Regular"
+        },
+        "score": 46.2,
+        "classification": "Fit Questionável",
+        "createdAt": "2025-08-27T01:26:54.443Z"
+      }
+    },
+    {
+      "id": "bac9",
+      "userAnswers": {
+        "user": {
+          "name": "Antonio",
+          "email": "antonio@email.com"
+        },
+        "answers": {
+          "experience": "Excelente",
+          "deliverables": "Abaixo do esperado",
+          "skills": "Adequada",
+          "availability": "Total",
+          "deadlines": "Entrega antes do prazo",
+          "pressure": "Mal",
+          "values": "Bastante",
+          "collaboration": "Excelente",
+          "adaptation": "Ótima",
+          "communication": "Regular"
+        },
+        "score": 63.2,
+        "classification": "Fit Aprovado",
+        "createdAt": "2025-08-27T01:30:48.024Z"
+      }
+    },
+    {
+      "id": "edc4",
+      "userAnswers": {
+        "user": {
+          "name": "Mike",
+          "email": "mike@email.com"
+        },
+        "answers": {
+          "experience": "Média",
+          "deliverables": "Acima do esperado",
+          "skills": "Boa",
+          "availability": "Baixa",
+          "deadlines": "Às vezes atrasa",
+          "pressure": "Razoavelmente",
+          "values": "Pouco",
+          "collaboration": "Média",
+          "adaptation": "Difícil",
+          "communication": "Excelente"
+        },
+        "score": 39.7,
+        "classification": "Fit Fora do Perfil",
+        "createdAt": "2025-08-27T02:04:43.593Z"
+      }
+    }
+  ],
+  "admin": [
+    {
+      "email": "quizz@quizz.com",
+      "password": "quizz"
+    }
+  ]
+}
